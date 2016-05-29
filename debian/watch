@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/moka-icon-theme-$1\.tar\.gz/ \
+  https://github.com/moka-project/moka-icon-theme/tags .*/v?(\d\S*)\.tar\.gz
