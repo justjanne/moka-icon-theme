@@ -1,0 +1,12 @@
+moka-icon-theme (5.1-0~394~ubuntu16.04.1) xenial; urgency=low
+
+  * Auto build.
+
+ -- Sam Hewitt <snwh@ubuntu.com>  Tue, 03 Nov 2015 16:43:38 +0000
+
+moka-icon-theme (5.1) UNRELEASED; urgency=low
+
+  * Version increase to 5.1; updates.
+
+ -- Sam Hewitt <hewittsamuel@gmail.com>  Mon, 31 Aug 2015 09:00:00 -0400
+
