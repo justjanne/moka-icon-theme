@@ -1,18 +1,6 @@
-moka-icon-theme (5.3.1-1) xenial; urgency=medium
+moka-icon-theme (5.3.2-1) unstable; urgency=low
 
-  * upstream 5.3.1 release
+  * Initial Release (Closes: #824964)
 
- -- David Mohammed <foss.freedom@gmail.com>  Sun, 29 May 2016 10:33:01 +0100
-
-moka-icon-theme (5.1-0~394~ubuntu16.04.1) xenial; urgency=low
-
-  * Auto build.
-
- -- Sam Hewitt <snwh@ubuntu.com>  Tue, 03 Nov 2015 16:43:38 +0000
-
-moka-icon-theme (5.1) UNRELEASED; urgency=low
-
-  * Version increase to 5.1; updates.
-
- -- Sam Hewitt <hewittsamuel@gmail.com>  Mon, 31 Aug 2015 09:00:00 -0400
+ -- David Mohammed <foss.freedom@gmail.com>  Sat, 21 May 2016 15:53:24 +0100
 
