@@ -1,7 +1,7 @@
 Source: moka-icon-theme
 Section: misc
 Priority: optional
-Maintainer: David Mohammed <foss.freedom@gmail.com>
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Vcs-Browser: https://github.com/budgie-remix/moka-icon-theme/tree/debian

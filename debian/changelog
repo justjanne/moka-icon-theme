@@ -1,3 +1,14 @@
+moka-icon-theme (5.3.2-2) unstable; urgency=medium
+
+  * cherry-pick upstream patches
+    - fix GTK+3.22 and GTK+3.20 based apps not displaying correctly due
+      to upstream changing their .desktop exec=icon names
+    - fix ubuntu-software, ImageMagik and Guake icon display
+  * Packaging Changes:
+    - update maintainer email address
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Sep 2016 10:48:43 +0100
+
 moka-icon-theme (5.3.2-1) unstable; urgency=low
 
   * Initial Release (Closes: #824964)

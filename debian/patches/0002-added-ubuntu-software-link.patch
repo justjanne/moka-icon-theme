@@ -1,0 +1,91 @@
+From e0cee1074d9f45f36298d47776b89b24c488c69c Mon Sep 17 00:00:00 2001
+From: Sam Hewitt <hewittsamuel@gmail.com>
+Date: Sun, 7 Aug 2016 11:56:59 -0400
+Subject: [PATCH] added ubuntu software link
+
+---
+ Moka/16x16/apps/ubuntusoftware.png   | 1 +
+ Moka/22x22/apps/ubuntusoftware.png   | 1 +
+ Moka/24x24/apps/ubuntusoftware.png   | 1 +
+ Moka/256x256/apps/ubuntusoftware.png | 1 +
+ Moka/32x32/apps/ubuntusoftware.png   | 1 +
+ Moka/48x48/apps/ubuntusoftware.png   | 1 +
+ Moka/64x64/apps/ubuntusoftware.png   | 1 +
+ Moka/96x96/apps/ubuntusoftware.png   | 1 +
+ 8 files changed, 8 insertions(+)
+ create mode 120000 Moka/16x16/apps/ubuntusoftware.png
+ create mode 120000 Moka/22x22/apps/ubuntusoftware.png
+ create mode 120000 Moka/24x24/apps/ubuntusoftware.png
+ create mode 120000 Moka/256x256/apps/ubuntusoftware.png
+ create mode 120000 Moka/32x32/apps/ubuntusoftware.png
+ create mode 120000 Moka/48x48/apps/ubuntusoftware.png
+ create mode 120000 Moka/64x64/apps/ubuntusoftware.png
+ create mode 120000 Moka/96x96/apps/ubuntusoftware.png
+
+diff --git a/Moka/16x16/apps/ubuntusoftware.png b/Moka/16x16/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/16x16/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/22x22/apps/ubuntusoftware.png b/Moka/22x22/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/22x22/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/24x24/apps/ubuntusoftware.png b/Moka/24x24/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/24x24/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/256x256/apps/ubuntusoftware.png b/Moka/256x256/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/256x256/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/32x32/apps/ubuntusoftware.png b/Moka/32x32/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/32x32/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/48x48/apps/ubuntusoftware.png b/Moka/48x48/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/48x48/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/64x64/apps/ubuntusoftware.png b/Moka/64x64/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/64x64/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+diff --git a/Moka/96x96/apps/ubuntusoftware.png b/Moka/96x96/apps/ubuntusoftware.png
+new file mode 120000
+index 0000000..29afd7d
+--- /dev/null
++++ b/Moka/96x96/apps/ubuntusoftware.png
+@@ -0,0 +1 @@
++system-software-install.png
+\ No newline at end of file
+-- 
+2.7.4
+

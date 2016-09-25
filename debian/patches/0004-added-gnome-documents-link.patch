@@ -1,0 +1,91 @@
+From 7bd315d30177ac0dbf864c95ae2a4b53f5143c3e Mon Sep 17 00:00:00 2001
+From: Sam Hewitt <hewittsamuel@gmail.com>
+Date: Sun, 7 Aug 2016 12:00:00 -0400
+Subject: [PATCH] added gnome-documents link
+
+---
+ Moka/16x16/apps/org.gnome.Documents.png   | 1 +
+ Moka/22x22/apps/org.gnome.Documents.png   | 1 +
+ Moka/24x24/apps/org.gnome.Documents.png   | 1 +
+ Moka/256x256/apps/org.gnome.Documents.png | 1 +
+ Moka/32x32/apps/org.gnome.Documents.png   | 1 +
+ Moka/48x48/apps/org.gnome.Documents.png   | 1 +
+ Moka/64x64/apps/org.gnome.Documents.png   | 1 +
+ Moka/96x96/apps/org.gnome.Documents.png   | 1 +
+ 8 files changed, 8 insertions(+)
+ create mode 120000 Moka/16x16/apps/org.gnome.Documents.png
+ create mode 120000 Moka/22x22/apps/org.gnome.Documents.png
+ create mode 120000 Moka/24x24/apps/org.gnome.Documents.png
+ create mode 120000 Moka/256x256/apps/org.gnome.Documents.png
+ create mode 120000 Moka/32x32/apps/org.gnome.Documents.png
+ create mode 120000 Moka/48x48/apps/org.gnome.Documents.png
+ create mode 120000 Moka/64x64/apps/org.gnome.Documents.png
+ create mode 120000 Moka/96x96/apps/org.gnome.Documents.png
+
+diff --git a/Moka/16x16/apps/org.gnome.Documents.png b/Moka/16x16/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/16x16/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/22x22/apps/org.gnome.Documents.png b/Moka/22x22/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/22x22/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/24x24/apps/org.gnome.Documents.png b/Moka/24x24/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/24x24/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/256x256/apps/org.gnome.Documents.png b/Moka/256x256/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/256x256/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/32x32/apps/org.gnome.Documents.png b/Moka/32x32/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/32x32/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/48x48/apps/org.gnome.Documents.png b/Moka/48x48/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/48x48/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/64x64/apps/org.gnome.Documents.png b/Moka/64x64/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/64x64/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+diff --git a/Moka/96x96/apps/org.gnome.Documents.png b/Moka/96x96/apps/org.gnome.Documents.png
+new file mode 120000
+index 0000000..9f8c10d
+--- /dev/null
++++ b/Moka/96x96/apps/org.gnome.Documents.png
+@@ -0,0 +1 @@
++gnome-documents.png
+\ No newline at end of file
+-- 
+2.7.4
+

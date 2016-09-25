@@ -1,0 +1,171 @@
+From 69fc7721e4d0318bcb0bf72ef30381746dac693e Mon Sep 17 00:00:00 2001
+From: Joshua Fogg <joshua.h.fogg@gmail.com>
+Date: Sat, 24 Sep 2016 17:31:28 +0100
+Subject: [PATCH] Added Evience Preview symlinks
+
+---
+ Moka/16x16/apps/document-print-preview.png      | 1 +
+ Moka/16x16@2x/apps/document-print-preview.png   | 1 +
+ Moka/22x22/apps/document-print-preview.png      | 1 +
+ Moka/22x22@2x/apps/document-print-preview.png   | 1 +
+ Moka/24x24/apps/document-print-preview.png      | 1 +
+ Moka/24x24@2x/apps/document-print-preview.png   | 1 +
+ Moka/256x256/apps/document-print-preview.png    | 1 +
+ Moka/256x256@2x/apps/document-print-preview.png | 1 +
+ Moka/32x32/apps/document-print-preview.png      | 1 +
+ Moka/32x32@2x/apps/document-print-preview.png   | 1 +
+ Moka/48x48/apps/document-print-preview.png      | 1 +
+ Moka/48x48@2x/apps/document-print-preview.png   | 1 +
+ Moka/64x64/apps/document-print-preview.png      | 1 +
+ Moka/64x64@2x/apps/document-print-preview.png   | 1 +
+ Moka/96x96/apps/document-print-preview.png      | 1 +
+ Moka/96x96@2x/apps/document-print-preview.png   | 1 +
+ 16 files changed, 16 insertions(+)
+ create mode 120000 Moka/16x16/apps/document-print-preview.png
+ create mode 120000 Moka/16x16@2x/apps/document-print-preview.png
+ create mode 120000 Moka/22x22/apps/document-print-preview.png
+ create mode 120000 Moka/22x22@2x/apps/document-print-preview.png
+ create mode 120000 Moka/24x24/apps/document-print-preview.png
+ create mode 120000 Moka/24x24@2x/apps/document-print-preview.png
+ create mode 120000 Moka/256x256/apps/document-print-preview.png
+ create mode 120000 Moka/256x256@2x/apps/document-print-preview.png
+ create mode 120000 Moka/32x32/apps/document-print-preview.png
+ create mode 120000 Moka/32x32@2x/apps/document-print-preview.png
+ create mode 120000 Moka/48x48/apps/document-print-preview.png
+ create mode 120000 Moka/48x48@2x/apps/document-print-preview.png
+ create mode 120000 Moka/64x64/apps/document-print-preview.png
+ create mode 120000 Moka/64x64@2x/apps/document-print-preview.png
+ create mode 120000 Moka/96x96/apps/document-print-preview.png
+ create mode 120000 Moka/96x96@2x/apps/document-print-preview.png
+
+diff --git a/Moka/16x16/apps/document-print-preview.png b/Moka/16x16/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/16x16/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/16x16@2x/apps/document-print-preview.png b/Moka/16x16@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/16x16@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/22x22/apps/document-print-preview.png b/Moka/22x22/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/22x22/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/22x22@2x/apps/document-print-preview.png b/Moka/22x22@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/22x22@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/24x24/apps/document-print-preview.png b/Moka/24x24/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/24x24/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/24x24@2x/apps/document-print-preview.png b/Moka/24x24@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/24x24@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/256x256/apps/document-print-preview.png b/Moka/256x256/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/256x256/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/256x256@2x/apps/document-print-preview.png b/Moka/256x256@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/256x256@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/32x32/apps/document-print-preview.png b/Moka/32x32/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/32x32/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/32x32@2x/apps/document-print-preview.png b/Moka/32x32@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/32x32@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/48x48/apps/document-print-preview.png b/Moka/48x48/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/48x48/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/48x48@2x/apps/document-print-preview.png b/Moka/48x48@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/48x48@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/64x64/apps/document-print-preview.png b/Moka/64x64/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/64x64/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/64x64@2x/apps/document-print-preview.png b/Moka/64x64@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/64x64@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/96x96/apps/document-print-preview.png b/Moka/96x96/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/96x96/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+diff --git a/Moka/96x96@2x/apps/document-print-preview.png b/Moka/96x96@2x/apps/document-print-preview.png
+new file mode 120000
+index 0000000..b96d7b6
+--- /dev/null
++++ b/Moka/96x96@2x/apps/document-print-preview.png
+@@ -0,0 +1 @@
++accessories-document-viewer.png
+\ No newline at end of file
+-- 
+2.7.4
+
