@@ -1,3 +1,19 @@
+moka-icon-theme (5.3.5-1) unstable; urgency=medium
+
+  * new upstream release
+    - fix GTK+3.22 and GTK+3.20 based apps
+    - variety of new icons
+  * Packaging Changes:
+    - remove patches since these are now incorporated with the release
+    - remove source license files since covered by debian/copyright
+    - revise upstream/metadata to reflect authors new repository location
+    - corrected debian/copyright to reflect the dual license the author
+      has released the icons and source package under
+    - updated control description to better describe the relationship
+      between Moka and Faba
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 03 Oct 2016 20:23:25 +0100
+
 moka-icon-theme (5.3.2-2) unstable; urgency=medium
 
   * cherry-pick upstream patches

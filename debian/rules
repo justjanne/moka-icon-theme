@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_auto_install:
+	find . -name "LICENSE" -delete
+	find . -name "LICENSE_GPL" -delete
+	dh_auto_install
