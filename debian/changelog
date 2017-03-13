@@ -1,3 +1,11 @@
+moka-icon-theme (5.3.5-2) unstable; urgency=medium
+
+  * bug-fix release
+    - add patch fix-overly-large-icons to resolve some applications
+      scaling icons incorrectly
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 13 Mar 2017 20:47:46 +0000
+
 moka-icon-theme (5.3.5-1) unstable; urgency=medium
 
   * new upstream release
