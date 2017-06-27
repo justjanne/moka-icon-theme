@@ -1,3 +1,22 @@
+moka-icon-theme (5.3.6-1) unstable; urgency=medium
+
+  * new upstream release
+    - variety of new icons: elasticsearch, wxhexeditor,
+      wxformbuilder, gtkhash, internet archive, zenmap,
+      ubuntu-budgie, laptop-mode-tools, atlassian services,
+      TI code composer studio
+    - symlinks for apps that are comparable i.e. tilix > terminix,
+      nmap > zenmap, budgie-remix > ubuntu-budgie,
+      regedit > wine, wine-regedit > wine
+  * Packaging Changes:
+    - drop patch fix-overly-large-icons since this is now incorporated
+      with the release
+    - change debhelper and compat to v10
+    - update VCS fields from budgie-remix to UbuntuBudgie
+    - update copyright field year from 2016 to 2016-2017
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Jun 2017 19:10:21 +0100
+
 moka-icon-theme (5.3.5-2) unstable; urgency=medium
 
   * bug-fix release

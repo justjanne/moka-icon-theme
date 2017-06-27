@@ -4,11 +4,11 @@ Upstream-Contact: Sam Hewitt <sam@snwh.org>
 Source: https://github.com/snwh/moka-icon-theme
 
 Files: *
-Copyright: 2016, Sam Hewitt <sam@snwh.org>
+Copyright: 2016-2017, Sam Hewitt <sam@snwh.org>
 License: CC-BY-SA-4.0 or GPL-3+
 
 Files: debian/*
-Copyright: 2016, David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2016-2017, David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-3+
 
 LICENSE: CC-BY-SA-4.0
