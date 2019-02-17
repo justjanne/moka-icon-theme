@@ -1,3 +1,18 @@
+moka-icon-theme (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * new upstream release
+    - Atom beta, xreader symlinks, tor browser, Unity 3D
+      Slack, GIMP, Spotify, GNOME Games, retroarch,
+      fprint_demo, smartgit
+  * Packaging Changes:
+    - copyright - year changes, full CC and debian changed to GPL-2+
+    - control - bump Standards-Version - rules updated to be more verbose
+    - control - debhelp (and compat) changed to v11
+    - control - add B-D meson for new source build system
+    - upstream/metaupdate format change
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 17 Feb 2019 10:22:55 +0000
+
 moka-icon-theme (5.3.6-1) unstable; urgency=medium
 
   * new upstream release
