@@ -1,4 +1,4 @@
-moka-icon-theme (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+moka-icon-theme (5.4.0-0ubuntu0.1) disco; urgency=medium
 
   * new upstream release
     - Atom beta, xreader symlinks, tor browser, Unity 3D
@@ -10,8 +10,12 @@ moka-icon-theme (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
     - control - debhelp (and compat) changed to v11
     - control - add B-D meson for new source build system
     - upstream/metaupdate format change
+    - fix mismatched sized unity-3d binaries
+      (upstream git PR #396)
+    - rules - remove executable bit from index.theme and tox
+      to resolve lintian warnings (upstream git PR #396)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 17 Feb 2019 10:22:55 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 17 Feb 2019 11:19:09 +0000
 
 moka-icon-theme (5.3.6-1) unstable; urgency=medium
 

@@ -6,6 +6,8 @@ export DH_VERBOSE = 1
 	dh $@
 
 override_dh_auto_install:
-	find . -name "LICENSE" -delete
-	find . -name "LICENSE_GPL" -delete
+	find debian -name "LICENSE" -delete
+	find debian -name "LICENSE_GPL" -delete
+	find . -name "tox" -exec chmod -x {} \;
+	find . -name "index.theme" -exec chmod -x {} \;
 	dh_auto_install
