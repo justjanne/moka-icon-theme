@@ -1,4 +1,5 @@
 2048.png gnome-2048.png
+2048.png org.gnome.TwentyFortyEight.png
 abiword.png abiword_48.png
 accessories-calculator.png calc.png
 accessories-calculator.png galculator.png
@@ -22,6 +23,7 @@ accessories-document-viewer.png evince.png
 accessories-document-viewer.png graphics-viewer-document.png
 accessories-document-viewer.png okular.png
 accessories-document-viewer.png org.gnome.Evince.png
+accessories-document-viewer.png gnome-pdf.png
 accessories-document-viewer.png qpdfview.png
 accessories-document-viewer.png xpdf.png
 accessories-ebook-reader.png org.gnome.Books.png
@@ -80,6 +82,7 @@ archive-manager.png archivemanager.png
 archive-manager.png ark.png
 archive-manager.png engrampa.png
 archive-manager.png file-roller.png
+archive-manager.png org.gnome.ArchiveManager.png
 archive-manager.png p7zip.png
 archive-manager.png utilities-file-archiver.png
 archive-manager.png xarchiver.png
@@ -198,7 +201,6 @@ emule.png amule.png
 espeak.png espeak-gui.png
 eufloria.png eufloriahd.png
 eufloria.png steam_icon_41210.png
-evince.png gnome-pdf.png
 extensions.png 67EF_addoninstaller.0.png
 extensions.png cs-extensions.png
 extensions.png gnome-shell-extension-prefs.png
@@ -262,11 +264,11 @@ gnome-disks.png disks.png
 gnome-disks.png gnome-device-manager.png
 gnome-disks.png gsmartcontrol.png
 gnome-disks.png palimpsest.png
+gnome-disks.png org.gnome.DiskUtility
 gnome-documents.png org.gnome.Documents.png
 gnome-documents.png org.gnome.Documents.png
 gnome-games.png org.gnome.Games.png
 gnome-klotski.png gnotski.png
-gnome-mahjongg.png org.gnome.Mahjongg.png
 gnome-maps.png org.gnome.Maps.png
 gnome-music.png org.gnome.Music.png
 gnome-nettool.png nmap_icon.png
@@ -433,6 +435,7 @@ logviewer.png utilities-log-viewer.png
 lollypop.png org.gnome.Lollypop.png
 lollypop.png org.gnome.Lollypop.png
 mahjongg.png gnome-mahjongg.png
+mahjongg.png org.gnome.Mahjongg.png
 mathematica.png wolfram-mathematica.png
 maxthon.png maxthon-browser.png
 meld.png org.gnome.Meld.png
@@ -685,6 +688,7 @@ sublime-text.png sublime_text.png
 sublime-text.png sublimetext.png
 sudoku.png gnome-sudoku.png
 sudoku.png ksudoku.png
+sudoku.png org.gnome.Sudoku.png
 sunflower.png sunflower-fm.png
 supertuxkart.png supertux.png
 supertuxkart.png supertuxkart_128.png
