@@ -12,6 +12,7 @@ accessories-character-map.png gnome-characters.png
 accessories-character-map.png gucharmap.png
 accessories-character-map.png org.gnome.Characters.png
 accessories-clipboard.png clipit.png
+accessories-clipboard.png clipit-trayicon.png
 accessories-clipboard.png klipper.png
 accessories-clipboard.png parcellite.png
 accessories-dictionary.png dictionary.png
@@ -66,6 +67,7 @@ addressbook.png kaddressbook.png
 addressbook.png kontact.png
 addressbook.png ktp-contacts.png
 addressbook.png org.gnome.Contacts.png
+addressbook.png gnome-contacts.png
 adobe-air.png AdobeAIR.png
 adobe-air.png air.png
 aisleriot.png gnome-aisleriot.png
@@ -729,6 +731,7 @@ system-software-install.png software-center.png
 system-software-install.png softwarecenter.png
 system-software-install.png ubuntusoftware.png
 system-software-install.png yumex.png
+system-software-install.png gnome-mime-application-x-deb.png
 system-software-package-manager.png aptik-gtk.png
 system-software-package-manager.png aptik.png
 system-software-package-manager.png gnome-apt.png
