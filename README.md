@@ -5,13 +5,11 @@ Moka is a stylized FreeDesktop icon set, created with simplicity in mind. It use
 
 ## Copying or Reusing
 
-This project has mixed licencing. You are free to copy, redistribute and/or modify aspects of this work under the terms of each licence accordingly (unless otherwise specified).
+This project is licenced under the terms of the [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt) and the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The Moka icon assets (any and all source `.svg` files or rendered `.png` files) are licenced under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+The Moka icon assets (any and all `.png` files) are licenced under the terms of the CC-by-SA (which is encoded in the PNG metadata), all SVG icons, icon source materials, scripts and other bits are free software licenced under the GNU GPL; you can copy, redistribute and/or modify aspects of this work under the terms of each license accordingly.
 
-Included scripts are free software licenced under the terms of the [GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
-
-When reusing this work please include a proper attribution:
+When reusing this work be sure to include a proper attribution:
 
 > "[Moka Icons](http://snwh.org/moka)" by [Sam Hewitt](http://samuelhewitt.com/) is licensed under [CC-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -70,4 +68,4 @@ Contributions are obviously welcome! If you would like to contribute to this pro
 
 ## Donate & Support
 
-If you would like to support development by making a donation you can do so [here](https://snwh.org/donate) or by becoming a supporter on [Patreon](http://patreon.com/snwh/) or [Liberapay](http://liberapay.com/snwh/). &#x1F60A;
+If you would like to support development by making a donation you can do so [here](https://snwh.org/donate) or by becoming a Patron on [Patreon](http://patreon.com/snwh/). &#x1F60A;
