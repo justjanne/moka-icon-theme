@@ -1,3 +1,28 @@
+moka-icon-theme (5.4.0+20190305-0ubuntu1) disco; urgency=medium
+
+  * Bug fix release
+    - Add missing icon for livepatch
+      https://github.com/snwh/moka-icon-theme/pull/401
+    - Add missing icon for system-users
+      https://github.com/snwh/moka-icon-theme/pull/397
+  * Packaging Change
+    - merge the two PRs before creating the revised deb tarball
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 05 Mar 2019 19:55:18 +0000
+
+moka-icon-theme (5.4.0+20190226-0ubuntu1) disco; urgency=medium
+
+  * Bug fix release
+    - Add symlinks for mainly GNOME based apps
+      https://github.com/snwh/moka-icon-theme/pull/400
+    - Add symlink for GNOME MPV
+      https://github.com/snwh/moka-icon-theme/pull/398
+  * Packaging Change
+    - merge the two PRs & generate symlinks before
+      creating the revised deb tarball
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 27 Feb 2019 21:25:09 +0000
+
 moka-icon-theme (5.4.0-0ubuntu1) disco; urgency=medium
 
   * new upstream release
