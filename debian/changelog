@@ -1,3 +1,13 @@
+moka-icon-theme (5.4.0+20190313-0ubuntu1) disco; urgency=medium
+
+  * Bug fix release
+    - Add missing symlinks for d-feet and system-monitor
+      https://github.com/snwh/moka-icon-theme/pull/397
+  * Packaging Change
+    - merge the the PR before creating the revised deb tarball
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Mar 2019 19:10:36 +0000
+
 moka-icon-theme (5.4.0+20190305-0ubuntu1) disco; urgency=medium
 
   * Bug fix release
