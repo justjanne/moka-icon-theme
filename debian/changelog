@@ -1,67 +1,45 @@
-moka-icon-theme (5.4.0+20190320-0ubuntu1) disco; urgency=medium
+moka-icon-theme (5.4.0.1-1) unstable; urgency=medium
 
-  * Bug fix release (LP: #1821004)
+  * New release
+    - Soft-fork of upstream to expedite releases incorporating
+      upstream pull-requests.
     - Add missing symlinks for gnome-notes, baobab, gnome-screenshot,
-      gnome-fontviewer
+      gnome-fontviewer (LP: #1821004)
+      Add missing symlinks for d-feet and system-monitor
       https://github.com/snwh/moka-icon-theme/pull/397
-  * Packaging Change
-    - merge the the PR before creating the revised deb tarball
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 20 Mar 2019 19:05:14 +0000
-
-moka-icon-theme (5.4.0+20190313-0ubuntu1) disco; urgency=medium
-
-  * Bug fix release
-    - Add missing symlinks for d-feet and system-monitor
-      https://github.com/snwh/moka-icon-theme/pull/397
-  * Packaging Change
-    - merge the the PR before creating the revised deb tarball
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Mar 2019 19:10:36 +0000
-
-moka-icon-theme (5.4.0+20190305-0ubuntu1) disco; urgency=medium
-
-  * Bug fix release
     - Add missing icon for livepatch
       https://github.com/snwh/moka-icon-theme/pull/401
     - Add missing icon for system-users
       https://github.com/snwh/moka-icon-theme/pull/397
-  * Packaging Change
-    - merge the two PRs before creating the revised deb tarball
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 05 Mar 2019 19:55:18 +0000
-
-moka-icon-theme (5.4.0+20190226-0ubuntu1) disco; urgency=medium
-
-  * Bug fix release
     - Add symlinks for mainly GNOME based apps
       https://github.com/snwh/moka-icon-theme/pull/400
     - Add symlink for GNOME MPV
       https://github.com/snwh/moka-icon-theme/pull/398
-  * Packaging Change
-    - merge the two PRs & generate symlinks before
-      creating the revised deb tarball
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 27 Feb 2019 21:25:09 +0000
-
-moka-icon-theme (5.4.0-0ubuntu1) disco; urgency=medium
-
-  * new upstream release
+    - Add symlnk for Rhythmbox
+      https://github.com/snwh/moka-icon-theme/pull/415
+    - Add symlink for Celluloid
+      https://github.com/snwh/moka-icon-theme/pull/414
+    - Add GNOME 3.32 icons
+      https://github.com/snwh/moka-icon-theme/pull/410
+    - fix mismatched sized unity-3d binaries resolving lintian issues
+  * from upstream 5.4.0 release
     - Atom beta, xreader symlinks, tor browser, Unity 3D
       Slack, GIMP, Spotify, GNOME Games, retroarch,
       fprint_demo, smartgit
   * Packaging Changes:
     - copyright - year changes, full CC and debian changed to GPL-2+
     - control - bump Standards-Version - rules updated to be more verbose
-    - control - debhelp (and compat) changed to v11
+    - control - debhelper changed to v12
     - control - add B-D meson for new source build system
-    - upstream/metaupdate format change
-    - fix mismatched sized unity-3d binaries
-      (upstream git PR #396)
+    - remove compat
+    - copyright - update year
+    - upstream/metaupdate format change and new repo details
     - rules - remove executable bit from index.theme and tox
-      to resolve lintian warnings (upstream git PR #396)
+      to resolve lintian warnings
+    - Update watch for new repo release
+    - Add packager signing signature
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 17 Feb 2019 11:19:09 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 02 Feb 2020 18:09:52 +0000
 
 moka-icon-theme (5.3.6-1) unstable; urgency=medium
 
