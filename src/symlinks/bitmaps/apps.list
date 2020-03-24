@@ -209,6 +209,7 @@ eufloria.png steam_icon_41210.png
 extensions.png 67EF_addoninstaller.0.png
 extensions.png cs-extensions.png
 extensions.png gnome-shell-extension-prefs.png
+extensions.png org.gnome.Extensions.png
 fbreader.png FBReader.png
 fez.png steam_icon_224760.png
 finalterm.png final-term.png
@@ -667,6 +668,7 @@ remote-desktop.png gnome-remote-desktop.png
 remote-desktop.png NoMachine.png
 remote-desktop.png preferences-desktop-remote-desktop.png
 remote-desktop.png remmina.png
+remote-desktop.png org.remmina.Remmina.png
 samba.png system-config-samba.png
 screenruler.png screenruler-icon.png
 selinux.png setroubleshoot_icon.png
