@@ -1,11 +1,21 @@
-moka-icon-theme (5.4.0.2-1) UNRELEASED; urgency=medium
+moka-icon-theme (5.4.0.2-1) unstable; urgency=medium
 
   * New release
     - Resolve rendering of icons with inkscape (version >= 1.0)
       https://github.com/snwh/moka-icon-theme/pull/424
     - Add Google Chat and Zoom icons
       https://github.com/snwh/moka-icon-theme/pull/421
-      
+    - Add symlinks for catfish
+      https://github.com/snwh/moka-icon-theme/pull/426
+    - Add symlinks for drawing
+      https://github.com/snwh/moka-icon-theme/pull/429
+    - Add symlinks for Remmina
+      https://github.com/snwh/moka-icon-theme/pull/428
+    - Add symlinks for gThumb
+      https://github.com/snwh/moka-icon-theme/pull/427
+  * Packaging Changes
+    - control: Bump StandardsVersion
+    - control: Bump debhelper/compat version
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Dec 2020 21:28:24 +0000
 
