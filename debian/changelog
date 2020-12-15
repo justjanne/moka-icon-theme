@@ -1,3 +1,14 @@
+moka-icon-theme (5.4.0.2-1) UNRELEASED; urgency=medium
+
+  * New release
+    - Resolve rendering of icons with inkscape (version >= 1.0)
+      https://github.com/snwh/moka-icon-theme/pull/424
+    - Add Google Chat and Zoom icons
+      https://github.com/snwh/moka-icon-theme/pull/421
+      
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Dec 2020 21:28:24 +0000
+
 moka-icon-theme (5.4.0.1-1) unstable; urgency=medium
 
   * New release
