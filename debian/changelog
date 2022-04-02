@@ -1,3 +1,14 @@
+moka-icon-theme (5.4.0.4-1) unstable; urgency=medium
+
+  * New release
+    - Refresh Quassel icon to mirror the official icon more closely
+      https://github.com/snwh/moka-icon-theme/pull/432
+  * Packaging Changes
+    - d/copyright bump copyright year
+    - d/control bump StandardsVersion - no further changes required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 02 Apr 2022 14:54:05 +0100
+
 moka-icon-theme (5.4.0.3-1) unstable; urgency=medium
 
   * New release
