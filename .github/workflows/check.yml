@@ -1,0 +1,17 @@
+name: check
+on: [push]
+jobs:
+  check-generated-symlinks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: generate symlinks
+      run: src/symlinks/generate-symlinks.sh
+    - name: verify changed files
+      uses: tj-actions/verify-changed-files@v9
+      id: verify-changed-files
+    - name: fail if symlinks changed
+      uses: actions/github-script@v3
+      if: steps.verify-changed-files.outputs.files_changed == 'true'
+      run:
+        core.setFailed('generated symlinks are not identical')
