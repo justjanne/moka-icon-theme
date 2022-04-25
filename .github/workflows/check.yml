@@ -16,3 +16,19 @@ jobs:
       with:
         script: |
           core.setFailed('generated symlinks are not identical')
+    - name: find broken symlinks
+      id: find-broken-symlinks
+      run: |
+        BROKEN_SYMLINKS="$(find Moka -xtype l)"
+        printf "%s\n" "$BROKEN_SYMLINKS"
+        if [ -z "$BROKEN_SYMLINKS" ]; then
+          echo "::set-output name=symlinks_broken::false"
+        else
+          echo "::set-output name=symlinks_broken::true"
+        fi
+    - name: fail if symlinks broken
+      uses: actions/github-script@v3
+      if: steps.find-broken-symlinks.outputs.symlinks_broken == 'true'
+      with:
+        script: |
+          core.setFailed('symlinks contain broken symlinks')
