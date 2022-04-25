@@ -36,14 +36,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: generate bitmaps
-      run: src/bitmaps/render-bitmaps.py
+    - name: prepare tools
+      run: sudo apt-get update && sudo apt-get install -y html-xml-utils
     - name: find missing bitmaps
       id: find-missing-bitmaps
       run: |
-        NEW_FILES="$(git status --porcelain | grep '^??')"
-        printf "%s\n" "$NEW_FILES"
-        if [ -z "$NEW_FILES" ]; then
+        MISSING_BITMAPS="$(src/bitmaps/find-missing-bitmaps.sh)"
+        printf "%s\n" "$MISSING_BITMAPS"
+        if [ -z "$MISSING_BITMAPS" ]; then
           echo "::set-output name=bitmaps_missing::false"
         else
           echo "::set-output name=bitmaps_missing::true"
