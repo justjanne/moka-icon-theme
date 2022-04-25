@@ -115,7 +115,7 @@ blender.png Blender.png
 boincmgr.png boinc.png
 bootloader.png bum.png
 bootloader.png grub-customizer.png
-builder.png org.gnome.Builder.png
+#builder.png org.gnome.Builder.png
 calendar.png california.png
 calendar.png date.png
 calendar.png dayfolder.png
@@ -279,7 +279,7 @@ gnome-documents.png org.gnome.Documents.png
 gnome-documents.png org.gnome.Documents.png
 gnome-games.png org.gnome.Games.png
 gnome-klotski.png gnotski.png
-gnome-maps.png org.gnome.Maps.png
+#gnome-maps.png org.gnome.Maps.png
 gnome-mpv.png io.github.GnomeMpv.png
 gnome-mpv.png io.github.celluloid_player.Celluloid.png
 gnome-music.png org.gnome.Music.png
