@@ -15,7 +15,7 @@ jobs:
       if: steps.verify-changed-files.outputs.files_changed == 'true'
       with:
         script: |
-          core.setFailed('generated symlinks are not identical')
+          core.setFailed('not all generated symlinks are committed')
     - name: find broken symlinks
       id: find-broken-symlinks
       run: |
@@ -31,4 +31,26 @@ jobs:
       if: steps.find-broken-symlinks.outputs.symlinks_broken == 'true'
       with:
         script: |
-          core.setFailed('symlinks contain broken symlinks')
+          core.setFailed('some symlinks are broken')
+  check-generated-bitmaps:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: generate bitmaps
+      run: src/bitmaps/render-bitmaps.py
+    - name: find missing bitmaps
+      id: find-missing-bitmaps
+      run: |
+        NEW_FILES="$(git status --porcelain | grep '^??')"
+        printf "%s\n" "$NEW_FILES"
+        if [ -z "$NEW_FILES" ]; then
+          echo "::set-output name=bitmaps_missing::false"
+        else
+          echo "::set-output name=bitmaps_missing::true"
+        fi
+    - name: fail if bitmaps missing
+      uses: actions/github-script@v3
+      if: steps.find-missing-bitmaps.outputs.bitmaps_missing == 'true'
+      with:
+        script: |
+          core.setFailed('not all generated bitmaps are committed')
