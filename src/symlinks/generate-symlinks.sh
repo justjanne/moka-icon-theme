@@ -42,8 +42,11 @@ do
 			cd $DIR/../../$THEME/$SIZE/$CONTEXT
 			while read line;
 			do
-				ln -sf $line
-			done < $LIST
+                                if [ "${line:-1}" != "#" ];
+				then
+					ln -sf $line
+				fi
+			done < <(grep -v '^#' $LIST)
 			cd $DIR/../../$THEME
 		else
 			echo "  -- skipping "$SIZE"/"$CONTEXT
@@ -51,11 +54,3 @@ do
 	done
 done
 echo "Done."
-
-# echo $DIR
-# Clear symlink errors
-if command -v symlinks 2>&1 >/dev/null; then
-	echo "Deleting broken links..."
-	symlinks -cdr cd $DIR/../../$THEME
-	echo "Done."
-fi
