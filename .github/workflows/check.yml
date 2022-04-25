@@ -13,5 +13,6 @@ jobs:
     - name: fail if symlinks changed
       uses: actions/github-script@v3
       if: steps.verify-changed-files.outputs.files_changed == 'true'
-      run:
-        core.setFailed('generated symlinks are not identical')
+      with:
+        script: |
+          core.setFailed('generated symlinks are not identical')
